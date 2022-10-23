@@ -1,0 +1,55 @@
+h2:hover{
+    color : red;
+}
+
+.tables{
+    color : royalblue;
+}
+
+.sub-title{
+    color: blue;
+}
+
+#tables{
+    color: brown;
+}
+
+/* li:nth-child(2){
+    color: rosybrown;
+} */
+
+/* #google-link:link{
+    color: blue;
+}
+
+#google-link:visited{
+    color: red;
+} */
+
+h2 + a {
+    color: rgb(237, 18, 73);
+}
+
+textarea ~ button{
+    color:rgb(253, 6, 142)
+}
+
+ul > li {
+    color:goldenrod;
+}
+
+/* ul li {
+    color:green;
+} */
+
+/* img[src="../IMG/image1.png"]{
+    border: 10px solid black;
+} */
+
+img[src^="../IMG/"]{
+    border: 10px solid black;
+}
+
+h2[class~="article-subttitle"]{
+    background-color: lightblue;
+}
